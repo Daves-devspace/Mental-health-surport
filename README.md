@@ -1,0 +1,1 @@
+This is a Mental Health Support System designed to provide accessible mental health resources, services, and support for users. It enables users to book appointments, explore mental health resources, and connect with mental health professionals. Built using Django, the system is tailored to offer a secure, reliable, and user-friendly experience.
