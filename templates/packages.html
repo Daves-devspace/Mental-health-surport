@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>packages</title>
+</head>
+
+<body>
+    <h3>paid packages</h3>
+
+    <form method="get">
+        {{filter.form.as_p}}
+
+        <button type="submit">Search</button>
+    </form>
+
+    <ul>
+        {% for product in filter.qs %}
+        <li>{{package.service}} - Ksh{{package.charges}}</li>
+        {% empty %}
+        <li>No products found!</li>
+        {% endfor %}
+
+    </ul>
+
+
+
+</body>
+
+</html>

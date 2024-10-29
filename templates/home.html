@@ -2,7 +2,7 @@
 
 {% block content %}
 <!-- Home page content goes here -->
-<div class="hero-section">
+<div class="hero-section d-flex ">
     <div class="hero-text">
         <h1>Finding <span>Your Own Way</span></h1>
         <h3>Mindful Living</h3>
@@ -10,20 +10,53 @@
             to develop acceptance,to cultivate compassion and to find <br>
             more joy and peace</p>
         <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-success">Success</button>
+
 
     </div>
     <div class="hero-image">
 
-        <img src="images/bg.jpg" alt="">
+        <img src="/" alt="">
 
     </div>
 </div>
 
+
+
 <section class="about-us">
-    <h5>What we do/</h5>
+    <h5>About jiseme</h5>
+    <div class="about-text">
+        <h6>Licenced Psychologist</h6>
+        <p>Welcome to Jiseme Africa, a dedicated platform committed to supporting mental well-being in communities
+            across Africa. We believe that everyone deserves access to mental health resources and the opportunity to
+            live a balanced, fulfilling life.</p>
+    </div>
 
 </section>
+<section class="service-des">
+    <h2>What we do</h2>
+    <p>We take a holistic approach to mental health support, offering resources, tools, and professional guidance
+        tailored
+        to
+        meet diverse needs. Our platform connects individuals with licensed mental health professionals, curated
+        resources,
+        and
+        a community dedicated to mental health advocacy.</p>
+</section>
+
+<style>
+    .hero-section {
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-text {
+        padding: 0px;
+        margin: 70px 50px;
+        font-size: 40px;
+    }
+</style>
 
 <!-- Additional content specific to home.html -->
 {% endblock %}

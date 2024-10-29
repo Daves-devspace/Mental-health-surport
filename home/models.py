@@ -29,3 +29,11 @@ class Resource(models.Model):
 
     def __str__(self):
         return self.title
+    
+class Packages(models.Model):
+    service =models.CharField(max_length=100)
+    preview=models.TextField()
+    Charges=models.DecimalField(max_digits=10,decimal_places=2)
+    
+    def __str__(self):
+        return self.service
