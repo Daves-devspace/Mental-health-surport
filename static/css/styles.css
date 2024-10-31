@@ -1,7 +1,29 @@
-*{
-    background: #000;
+body::before {
+  display: block;
+  content: '';
+  height:30px;
+ 
 }
-.about-us{
-    color: rebeccapurple;
-    background-color: #000;
+
+@media(min-width:768px){
+  .news-input{
+    width: 50%;
+  }
+}
+
+.bg-jiseme {
+  background-color:#0b6c5e; /* Replace with the primary color */
+  color: #fbf3e4; /* Text color (optional) */
+}
+.text-jiseme{
+  color:#0b6c5e;
+
+}
+.btn-jiseme{
+  background-color:#004b35;
+}
+
+.bg-jiseme-dark {
+  background-color: #004b35; /* Darker shade for contrast */
+  color: #ffffff; /* Text color (optional) */
 }

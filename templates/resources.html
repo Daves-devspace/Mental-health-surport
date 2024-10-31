@@ -1,20 +1,27 @@
-{% include 'base.html' %}
+{% extends 'base.html' %}
 
 {% block content %}
-
-<h4>Mental health suport resourses</h4>
-
-{% for resource in resources %}
-
-<div class="card mt-5 d-flex  flex-wrap justify-content-center" style="width:400px">
-    <img class="card-img-top" src="img_avatar1.png" alt="resource image">
-    <div class="card-body">
-        <h4 class="card-title">{{ resource.title }}</h4>
-        <p class="card-text"> {{ resource.content }}</p>
-        <p class="card-date">{{resource.created_at}}</p>
-        <a href="#" class="btn btn-primary">Read details</a>
-    </div>
+<div class="resource p-5 bg-dark text-light text-center">
+    <h4>Our Latest Articles</h4>
 </div>
+{% for resource in resources %}
+<section class="bg-dark p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card " style="width:400px">
+                    <img class="card-img-top" src="#" alt="resource image">
+                    <div class="card-body text-center">
+                        <h4 class="card-title mb-3">{{ resource.title }}</h4>
+                        <p class="card-text"> {{ resource.content }}</p>
+                        <p class="card-date">{{resource.created_at}}</p>
+                        <a href="#" class="btn btn-primary">Read details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

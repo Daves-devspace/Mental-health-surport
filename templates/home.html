@@ -2,61 +2,373 @@
 
 {% block content %}
 <!-- Home page content goes here -->
-<div class="hero-section d-flex ">
-    <div class="hero-text">
-        <h1>Finding <span>Your Own Way</span></h1>
-        <h3>Mindful Living</h3>
-        <p>Mindfulness teaches us to live in the present moment, <br>
-            to develop acceptance,to cultivate compassion and to find <br>
-            more joy and peace</p>
-        <button type="button" class="btn btn-success">Success</button>
+<section class=" d-flex  text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+        <div class="hero-section d-sm-flex align-items-center justify-content-between ">
 
+            <div class="hero-text">
+
+                <h1>Finding Your Own Way <span class="text-jiseme">Towards Healing</span></h1>
+                <p class="lead my-4">Mindfulness teaches us to live in the present moment, <br>
+                    to develop acceptance,to cultivate compassion and to <br> find
+                    more joy and peace</p>
+                <button type="button" class="btn btn-success btn-lg my-3 " data-bs-toggle="modal"
+                    data-bs-target="#book">Book
+                    Session</button>
+
+            </div>
+            <img class=" img-fluid w-50 d-none d-sm-block" src="\static\img\hero.png" alt="image here">
+        </div>
 
     </div>
-    <div class="hero-image">
 
-        <img src="/" alt="">
+</section>
 
+<section class="bg-jiseme-dark text-light p-3">
+    <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+            <div class="input-group news-input">
+                <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Button</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Services boxes -->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center  g-4">
+            <div class="col-md ">
+                <div class="card  text-dark">
+                    <div class="card-body  text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-chat-dots"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Suicide Support
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Ipsa deleniti fuga ratione laboriosam expedita iure.
+                        </p>
+                        <a href="#" class="btn btn-success">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card  text-darkt">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Anxiety Disorder
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Ipsa deleniti fuga ratione laboriosam expedita iure.
+                        </p>
+                        <a href="#" class="btn btn-success">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card  text-dark">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <h3 class="card-title mb-3">
+                            Anxiety Disorder
+                        </h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Ipsa deleniti fuga ratione laboriosam expedita iure.
+                        </p>
+                        <a href="#" class="btn btn-success">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- About us section -->
+<section id=" about" class="p-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+                <img src="\static\img\hero.png" alt="about image" class="img-fluid">
+            </div>
+            <div class="col-md p-5">
+                <h2>About Jiseme</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Debitis amet esse aliquam maxime quasi alias, quae officiis dicta consequuntur veniam.
+
+                </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae laboriosam molestias quasi libero, blanditiis,
+                    nostrum autem cumque amet quo dolorum, ut doloremque
+                    voluptatibus placeat vero. Incidunt excepturi fugit repellat ullam!
+                </p>
+                <a href="" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right"></i>Readmore
+
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id=" about" class="p-5 bg-dark text-light">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+
+            <div class="col-md p-5">
+                <h2>Why us</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Debitis amet esse aliquam maxime quasi alias, quae officiis dicta consequuntur veniam.
+
+                </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae laboriosam molestias quasi libero, blanditiis,
+                    nostrum autem cumque amet quo dolorum, ut doloremque
+                    voluptatibus placeat vero. Incidunt excepturi fugit repellat ullam!
+                </p>
+                <a href="" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right"></i>Readmore
+
+                </a>
+
+            </div>
+            <div class="col-md">
+                <img src="\static\img\hero.png" alt="about image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- question accordion -->
+<section id="questions" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-one" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Is mental health a state
+                    </button>
+                </h2>
+                <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quia
+                        cumque, vero dicta delectus incidunt assumenda quis libero ut, fugiat exercitationem neque.
+                        Perspiciatis architecto eveniet nesciunt voluptates corrupti eligendi est tenetur nemo deleniti
+                        fugit. Dignissimos nemo voluptatem molestiae minus velit. Animi, perspiciatis iure dignissimos
+                        excepturi consequuntur similique aliquam distinctio culpa?
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Is it okay to ask for help and when
+                    </button>
+                </h2>
+                <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat fugit
+                        blanditiis nisi cupiditate quod et, reiciendis deserunt, soluta sunt laudantium molestiae error?
+                        Facilis aliquid exercitationem modi alias quibusdam officia hic quod, minus quae dicta mollitia
+                        laudantium minima vitae officiis deleniti id quaerat asperiores deserunt explicabo maiores est
+                        dolorem tempora ut?
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-three" aria-expanded="false" aria-controls="flush-collapseThree">
+                        How do i use the chat bot
+                    </button>
+                </h2>
+                <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, sint
+                        fugiat sapiente tempora assumenda magnam corporis velit, magni earum, accusantium nisi quos at
+                        doloremque incidunt nesciunt? Modi temporibus doloribus qui cum, quisquam minima dolore ipsum.
+                        Dolor, sequi. Optio tenetur corporis dicta pariatur reprehenderit? Velit ex provident eos vel
+                        optio quod!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="resourses" class="p-5 bg-primary">
+    <div class="container">
+        <h2 class="text-center text-white">
+            Our latest projects
+        </h2>
+        <p class="lead text-center text-white mb-5">
+            Mental suport programs and workshops
+        </p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Daudi mwas</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque autem
+                            dolores,
+                            vero
+                            quibusdam delectus nostrum!</p>
+                        <a href="#"> <i class="bi bi-twitter text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-facebook text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-instagram text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-linkedin text-dark mx-1"></i> </a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Daudi mwas</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque autem
+                            dolores,
+                            vero
+                            quibusdam delectus nostrum!</p>
+                        <a href="#"> <i class="bi bi-twitter text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-facebook text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-instagram text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-linkedin text-dark mx-1"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Daudi mwas</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque autem
+                            dolores,
+                            vero
+                            quibusdam delectus nostrum!</p>
+                        <a href="#"> <i class="bi bi-twitter text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-facebook text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-instagram text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-linkedin text-dark mx-1"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                        <h3 class="card-title mb-3">Daudi mwas</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque autem
+                            dolores,
+                            vero
+                            quibusdam delectus nostrum!</p>
+                        <a href="#"> <i class="bi bi-twitter text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-facebook text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-instagram text-dark mx-1"></i> </a>
+                        <a href="#"> <i class="bi bi-linkedin text-dark mx-1"></i> </a>
+                    </div>
+                </div>
+
+</section>
+
+<!-- contact & Map -->
+
+<section class="p-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md">
+                <h2 class="text-center mb-4">
+                    Content Info
+                </h2>
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">
+                        <span class="fw-bold">Main Location:</span>50 Main st Nairobi
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Phone:</span>071234567
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Email</span>email@exaple.com
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Modal -->
+
+<div class="modal fade" id="book" tabindex="-1" aria-labelledby="bookLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="bookLabel">Book session</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Fill out this form and we will get back to you</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            First Name:
+                        </label>
+                        <input type="text" class="form-control" id="first-name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            Last Name:
+                        </label>
+                        <input type="text" class="form-control" id="first-name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            Phone :
+                        </label>
+                        <input type="text" class="form-control" id="first-name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            Email:
+                        </label>
+                        <input type="text" class="form-control" id="first-name" />
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
     </div>
 </div>
 
-
-
-<section class="about-us">
-    <h5>About jiseme</h5>
-    <div class="about-text">
-        <h6>Licenced Psychologist</h6>
-        <p>Welcome to Jiseme Africa, a dedicated platform committed to supporting mental well-being in communities
-            across Africa. We believe that everyone deserves access to mental health resources and the opportunity to
-            live a balanced, fulfilling life.</p>
-    </div>
-
-</section>
-<section class="service-des">
-    <h2>What we do</h2>
-    <p>We take a holistic approach to mental health support, offering resources, tools, and professional guidance
-        tailored
-        to
-        meet diverse needs. Our platform connects individuals with licensed mental health professionals, curated
-        resources,
-        and
-        a community dedicated to mental health advocacy.</p>
-</section>
-
-<style>
-    .hero-section {
-        height: 100vh;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .hero-text {
-        padding: 0px;
-        margin: 70px 50px;
-        font-size: 40px;
-    }
-</style>
-
-<!-- Additional content specific to home.html -->
 {% endblock %}
